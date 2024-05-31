@@ -1,0 +1,6 @@
+*.exe
+*.dsym
+.vscode
+main
+build/*
+!/build/.gitignore
