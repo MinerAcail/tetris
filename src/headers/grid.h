@@ -14,7 +14,6 @@ public:
     void Draw();
     int grid[20][10];
 
-    std::vector<Color> GetCellColors();
     std::vector<Color> colors;
    
 };

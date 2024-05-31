@@ -9,10 +9,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Specify the source files
-set(SOURCES
-    src/imps/grid.cpp
+file(GLOB SOURCES
+    src/imps/*.cpp
     src/main.cpp
 )
+
 # Specify the header files using GLOB
 file(GLOB HEADERS "src/headers/*.h")
 # Add an executable target
